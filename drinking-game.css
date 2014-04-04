@@ -1,0 +1,46 @@
+/*
+	Drinking Game.
+	contraculto.com/drinking-game
+*/
+
+html,body{display:table;width:100%;height:100%;}
+body{margin:0;font-family:'PT Mono','Helvetica Neue',Helvetica,'Bitstream Vera Sans',Arial,sans-serif;font-weight:lighter;text-align:center;background:white;}
+#wrapper{display:table-cell;vertical-align:middle;color:666}
+#wrapper div{margin:0 auto;width:800px}
+h1{line-height:25px;font-size:25px}
+#setup, #game{display:none}
+
+#setup a{display:inline-block;width:200px;padding:10px 0x}
+#setup a:hover{color:cadetblue;cursor:pointer}
+#setup a.active{color:crimson}
+
+#game a:hover{color:cadetblue;cursor:pointer}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
