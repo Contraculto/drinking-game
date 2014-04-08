@@ -20,34 +20,73 @@ function getCards(players, kink, violence) {
 		'Regala un trago',
 		'Regala dos tragos',
 		'Regala tres tragos',
-		'+',
+		'Todos toman',
+		'Cultura chupística',
+		'Agrega un popote',
+		'Toma un trago por popote',
+		'Karaoke y toma 3 tragos',
+		'¡Breakdance!',
+		'Habla como robot por 2 turnos',
+		'Habla imitando otro acento por 2 turnos',
+		'Agrega un elemento de cotillón',		
+		'Cuenta una historia de curao',
+		'Canta una estrofa de la canción que está sonando',
+		'Crea o elimina una regla',
+		'No hables por dos turnos',
+		'Cambia la música'
+		
 	];
 
 	var cardsCoupleBase = [
-		'cb'
+		'Toman los dos',
+		'El otro te hará un peinado',
+		'Prepara el desayuno mañana',
+		'Imita a alguien. Ambos toman un trago',
+		'Explica una receta. Ambos toman un trago',
+		'Explica una película. Ambos toman un trago'
 	];
 
 	var cardsCoupleKink = [
-		'ck'
+		'Sácate una prenda',
+		'Ponte una prenda',
+		'Sácale una prenda al otro jugador',
+		'Sácale una prenda al otro jugador y póntela',
+		'Sácate una prenda y pónsela al otro jugador',
+		'Intercambia una prenda con el otro jugador'
 	];
 
 	var cardsCoupleViolence = [
-		'cv'
+		'Toma un trago y después insulta al otro jugador',
+		'Regálale al otro jugador la cantidad de tragos que quieras',
+		'Di algo penca de la familia del otro jugador',
+		'Compara al otro jugador con un animal de granja',
+		
 	];
 
 	var cardsGroupBase = [
 		'Todos toman un trago',
 		'Todos toman dos tragos',
+		'Todos toman tres tragos',
 		'Toma el jugador a tu derecha',
-		'Toma el jugador a tu izquierda'
+		'Toma el jugador a tu izquierda',
+		'¡Cascada!',
+		'Imita a alguien. El que adivina regala 2 tragos',
+		'Explica una receta. El que adivina regala 2 tragos',
+		'Explica una película. El que adivina regala 2 tragos'
 	];
 
 	var cardsGroupKink = [
-		'gk'
+		'Sácate una prenda',
+		'Ponte una prenda',
+		'Sácale una prenda al jugador que quieras',
+		'Sácale una prenda al jugador que quieras y póntela',
+		'Sácate una prenda y pónsela al jugador que quieras',
+		'Intercambia una prenda con el jugador que quieras'
 	];
 
 	var cardsGroupViolence = [
-		'Toma un trago y después insulta a otro jugador a elección'
+		'Toma un trago y después insulta al jugador que quieras',
+		'Pégale una cachetada al jugador que quieras'
 	];
 
 	if (players === 'two') {
